@@ -42,9 +42,9 @@ homepage: true
       <p>Whether you are searching for a place to relax and unwind, to invite and entertain when you wish, to produce your masterpiece, or a place to actively connect with all that nature has to offer, this one checks all the boxes.  You've never seen a home more captivating than this.  You won't be disappointed!</p>
     </div><!-- /.medium-8.columns -->
     <div class="medium-4 columns">
-      <img class="" src="{{ site.urlimg }}cabin12.jpg" alt="">
-      <img class="t30" src="{{ site.urlimg }}cabin8.jpg" alt="">
-      <img class="t30" src="{{ site.urlimg }}cabin3.jpg" alt="">
+      <img class="lightbox" class="" src="{{ site.urlimg }}cabin12.jpg" alt="">
+      <img class="lightbox" class="t30" src="{{ site.urlimg }}cabin8.jpg" alt="">
+      <img class="lightbox" class="t30" src="{{ site.urlimg }}cabin3.jpg" alt="">
     </div><!-- /.medium-4.columns -->
   </div>
 
@@ -62,17 +62,17 @@ homepage: true
 
   <div class="row">
     <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}cabin5.jpg"><img data-caption="Lower bedroom" src="{{ site.urlimg }}thumbnails/cabin5.jpg"></a>
+      <a href="{{ site.urlimg }}cabin5.jpg"><img class="lightbox" data-caption="Lower bedroom" src="{{ site.urlimg }}thumbnails/cabin5.jpg"></a>
       <h3 class="caption">Lower bedroom</h3>
     </div><!-- /.medium-4.columns -->
 
     <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}cabin6.jpg"><img data-caption="Loft bedroom" src="{{ site.urlimg }}thumbnails/cabin6.jpg"></a>
+      <a href="{{ site.urlimg }}cabin6.jpg"><img class="lightbox" data-caption="Loft bedroom" src="{{ site.urlimg }}thumbnails/cabin6.jpg"></a>
       <h3 class="caption">Loft bedroom</h3>
     </div><!-- /.medium-4.columns -->
 
     <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}cabin7.jpg"><img data-caption="Study bedroom" src="{{ site.urlimg }}thumbnails/cabin7.jpg"></a>
+      <a href="{{ site.urlimg }}cabin7.jpg"><img class="lightbox" data-caption="Study bedroom" src="{{ site.urlimg }}thumbnails/cabin7.jpg"></a>
       <h3 class="caption">Study bedroom</h3>
     </div><!-- /.medium-4.columns -->
 
@@ -80,12 +80,12 @@ homepage: true
 
   <div class="row">
     <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}cabin2.jpg"><img data-caption="Living room" src="{{ site.urlimg }}thumbnails/cabin2.jpg"></a>
+      <a href="{{ site.urlimg }}cabin2.jpg"><img class="lightbox" data-caption="Living room" src="{{ site.urlimg }}thumbnails/cabin2.jpg"></a>
       <h3 class="caption">Living room</h3>
     </div><!-- /.medium-4.columns -->
 
     <div class="medium-8 columns t30">
-      <a href="{{ site.urlimg }}cabin3.jpg"><img data-caption="Patio" src="{{ site.urlimg }}thumbnails/cabin3.jpg"></a>
+      <a href="{{ site.urlimg }}cabin3.jpg"><img class="lightbox" data-caption="Patio" src="{{ site.urlimg }}thumbnails/cabin3.jpg"></a>
       <h3 class="caption">Patio</h3>
     </div><!-- /.medium-8.columns -->
 
@@ -93,12 +93,12 @@ homepage: true
 
   <div class="row">
     <div class="medium-8 columns t30">
-      <a href="{{ site.urlimg }}cabin9.jpg"><img data-caption="Dining room" src="{{ site.urlimg }}thumbnails/cabin9.jpg"></a>
+      <a href="{{ site.urlimg }}cabin9.jpg"><img class="lightbox" data-caption="Dining room" src="{{ site.urlimg }}thumbnails/cabin9.jpg"></a>
       <h3 class="caption">Dining room</h3>
     </div><!-- /.medium-4.columns -->
 
     <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}cabin4.jpg"><img data-caption="Workshop" src="{{ site.urlimg }}thumbnails/cabin4.jpg"></a>
+      <a href="{{ site.urlimg }}cabin4.jpg"><img class="lightbox" data-caption="Workshop" src="{{ site.urlimg }}thumbnails/cabin4.jpg"></a>
       <h3 class="caption">Workshop</h3>
     </div><!-- /.medium-4.columns -->
 
@@ -107,29 +107,29 @@ homepage: true
   <div class="row">
 
     <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}cabin1.jpg"><img data-caption="Rumpus room" src="{{ site.urlimg }}thumbnails/cabin1.jpg"></a>
+      <a href="{{ site.urlimg }}cabin1.jpg"><img class="lightbox" data-caption="Rumpus room" src="{{ site.urlimg }}thumbnails/cabin1.jpg"></a>
       <h3 class="caption">Rumpus room</h3>
-      <a href="{{ site.urlimg }}cabin1.jpg"><img data-caption="Rumpus room" src="{{ site.urlimg }}thumbnails/cabin1.jpg" class="t30"></a>
+      <a href="{{ site.urlimg }}cabin1.jpg"><img class="lightbox" data-caption="Rumpus room" src="{{ site.urlimg }}thumbnails/cabin1.jpg" class="t30"></a>
       <h3 class="caption">Rumpus room</h3>
     </div><!-- /.medium-4.columns -->
 
     <div class="medium-8 columns t30">
-      <a href="{{ site.urlimg }}cabin8.jpg"><img class="t30" data-caption="Screened-in porch" src="{{ site.urlimg }}thumbnails/cabin8.jpg"></a>
+      <a href="{{ site.urlimg }}cabin8.jpg"><img class="lightbox" class="t30" data-caption="Screened-in porch" src="{{ site.urlimg }}thumbnails/cabin8.jpg"></a>
       <h3 class="caption">Screened-in porch</h3>
     </div><!-- /.medium-4.columns -->
 
   </div><!-- /.row -->
   <div class="row">
     <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}cabin10.jpg"><img data-caption="Cabin 10" src="{{ site.urlimg }}thumbnails/cabin10.jpg"></a>
+      <a href="{{ site.urlimg }}cabin10.jpg"><img class="lightbox" data-caption="Cabin 10" src="{{ site.urlimg }}thumbnails/cabin10.jpg"></a>
     </div><!-- /.medium-4.columns -->
 
     <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}cabin11.jpg"><img data-caption="Cabin 11" src="{{ site.urlimg }}thumbnails/cabin11.jpg"></a>
+      <a href="{{ site.urlimg }}cabin11.jpg"><img class="lightbox" data-caption="Cabin 11" src="{{ site.urlimg }}thumbnails/cabin11.jpg"></a>
     </div><!-- /.medium-4.columns -->
 
     <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}cabin12.jpg"><img data-caption="Cabin 12" src="{{ site.urlimg }}thumbnails/cabin12.jpg"></a>
+      <a href="{{ site.urlimg }}cabin12.jpg"><img class="lightbox" data-caption="Cabin 12" src="{{ site.urlimg }}thumbnails/cabin12.jpg"></a>
     </div><!-- /.medium-4.columns -->
 
   </div><!-- /.row -->
@@ -142,27 +142,27 @@ homepage: true
 
   <div class="row">
     <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}art3.jpg"><img data-caption="Art 3" src="{{ site.urlimg }}thumbnails/art3.jpg"></a>
+      <a href="{{ site.urlimg }}art3.jpg"><img class="lightbox" data-caption="Art 3" src="{{ site.urlimg }}thumbnails/art3.jpg"></a>
     </div><!-- /.medium-4.columns -->
 
     <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}art1.jpg"><img data-caption="Art 1" src="{{ site.urlimg }}thumbnails/art1.jpg"></a>
+      <a href="{{ site.urlimg }}art1.jpg"><img class="lightbox" data-caption="Art 1" src="{{ site.urlimg }}thumbnails/art1.jpg"></a>
     </div><!-- /.medium-4.columns -->
 
     <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}art2.jpg"><img data-caption="Art 2" src="{{ site.urlimg }}thumbnails/art2.jpg"></a>
+      <a href="{{ site.urlimg }}art2.jpg"><img class="lightbox" data-caption="Art 2" src="{{ site.urlimg }}thumbnails/art2.jpg"></a>
     </div><!-- /.medium-4.columns -->
 
   </div><!-- /.row -->
 
   <div class="row">
     <div class="medium-8 columns t30">
-      <a href="{{ site.urlimg }}art4.jpg"><img data-caption="Art 4" src="{{ site.urlimg }}thumbnails/art4.jpg"></a>
+      <a href="{{ site.urlimg }}art4.jpg"><img class="lightbox" data-caption="Art 4" src="{{ site.urlimg }}thumbnails/art4.jpg"></a>
     </div><!-- /.medium-8.columns -->
 
     <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}art5.jpg"><img data-caption="Art 5" src="{{ site.urlimg }}thumbnails/art5.jpg"></a>
-      <a href="{{ site.urlimg }}art6.jpg"><img class="t30" data-caption="Art 6" src="{{ site.urlimg }}thumbnails/art6.jpg"></a>
+      <a href="{{ site.urlimg }}art5.jpg"><img class="lightbox" data-caption="Art 5" src="{{ site.urlimg }}thumbnails/art5.jpg"></a>
+      <a href="{{ site.urlimg }}art6.jpg"><img class="lightbox" class="t30" data-caption="Art 6" src="{{ site.urlimg }}thumbnails/art6.jpg"></a>
     </div><!-- /.medium-4.columns -->
 
   </div><!-- /.row -->
@@ -175,28 +175,28 @@ homepage: true
 
   <div class="row">
     <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}bower7.jpg"><img data-caption="Bower 7" src="{{ site.urlimg }}thumbnails/bower7.jpg"></a>
+      <a href="{{ site.urlimg }}bower7.jpg"><img class="lightbox" data-caption="Bower 7" src="{{ site.urlimg }}thumbnails/bower7.jpg"></a>
     </div><!-- /.medium-4.columns -->
 
     <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}bower2.jpg"><img data-caption="Bower 2" src="{{ site.urlimg }}thumbnails/bower2.jpg"></a>
+      <a href="{{ site.urlimg }}bower2.jpg"><img class="lightbox" data-caption="Bower 2" src="{{ site.urlimg }}thumbnails/bower2.jpg"></a>
     </div><!-- /.medium-4.columns -->
 
     <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}bower3.jpg"><img data-caption="Bower 3" src="{{ site.urlimg }}thumbnails/bower3.jpg"></a>
+      <a href="{{ site.urlimg }}bower3.jpg"><img class="lightbox" data-caption="Bower 3" src="{{ site.urlimg }}thumbnails/bower3.jpg"></a>
     </div><!-- /.medium-4.columns -->
 
   </div><!-- /.row -->
 
   <div class="row">
     <div class="medium-8 columns t30">
-      <a href="{{ site.urlimg }}bower4.jpg"><img data-caption="Bower 4" src="{{ site.urlimg }}thumbnails/bower4.jpg"></a>
+      <a href="{{ site.urlimg }}bower4.jpg"><img class="lightbox" data-caption="Bower 4" src="{{ site.urlimg }}thumbnails/bower4.jpg"></a>
     </div><!-- /.medium-8.columns -->
 
     <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}bower5.jpg"><img data-caption="Bower 5" src="{{ site.urlimg }}thumbnails/bower5.jpg"></a>
-      <a href="{{ site.urlimg }}bower6.jpg"><img class="t30" data-caption="Bower 6" src="{{ site.urlimg }}thumbnails/bower6.jpg"></a>
-      <a href="{{ site.urlimg }}bower1.jpg"><img class="t30" data-caption="Bower 1" src="{{ site.urlimg }}thumbnails/bower1.jpg"></a>
+      <a href="{{ site.urlimg }}bower5.jpg"><img class="lightbox" data-caption="Bower 5" src="{{ site.urlimg }}thumbnails/bower5.jpg"></a>
+      <a href="{{ site.urlimg }}bower6.jpg"><img class="lightbox" class="t30" data-caption="Bower 6" src="{{ site.urlimg }}thumbnails/bower6.jpg"></a>
+      <a href="{{ site.urlimg }}bower1.jpg"><img class="lightbox" class="t30" data-caption="Bower 1" src="{{ site.urlimg }}thumbnails/bower1.jpg"></a>
     </div><!-- /.medium-4.columns -->
 
   </div><!-- /.row -->
@@ -207,30 +207,3 @@ homepage: true
         <a class="button large radius" href="mailto:brightwaterbog@conesus.com?subject=Renting%20711%20Wendell&cc=brittany.janis@gmail.com">Email Brittany + Sam to inquire</a>
     </div><!-- /.small-12.columns -->
 </div><!-- /.row -->
-
-<ul id="lightbox-gallery" class="clearing-thumbs" data-clearing></ul>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        // Select all images with the class 'gallery-image'
-        const images = document.querySelectorAll('img');
-        const lightboxGallery = document.getElementById('lightbox-gallery');
-        
-        console.log("Images found:", images.length);  // Debugging line
-
-        // Create the li elements and append them to the ul
-        images.forEach((image) => {
-            const li = document.createElement('li');
-            const anchor = document.createElement('a');
-            anchor.href = image.src;
-            anchor.title = image.alt;
-            anchor.dataset.clearing = true;
-
-            // Clone the image and append to the anchor
-            const clonedImage = image.cloneNode();
-            anchor.appendChild(clonedImage);
-            li.appendChild(anchor);
-            lightboxGallery.appendChild(li);
-        });
-    });
-</script>
