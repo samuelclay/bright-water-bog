@@ -9,26 +9,12 @@
 
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/photoswipe.umd.min.js"></script>
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/photoswipe-lightbox.umd.min.js"></script>
+
+<script src="{{ site.url }}{{ site.baseurl }}/assets/js/brightwaterbog.js"></script>
+
+
 <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/photoswipe.css">
 
-<script type="text/javascript">
-    (function () {
-        document.addEventListener('DOMContentLoaded', function () {
-            const lightbox = new PhotoSwipeLightbox({
-                // may select multiple "galleries"
-                gallery: 'article',
-
-                // Elements within gallery (slides)
-                children: 'a',
-                showHideAnimationType: 'zoom',
-                preloaderDelay: 100,
-                pswpModule: PhotoSwipe,
-                secondaryZoomLevel: "fit"
-            });
-            lightbox.init();
-        });
-    })()
-</script>
 
 {% comment %}
 # Start of Tawk.to Script
