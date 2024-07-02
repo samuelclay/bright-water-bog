@@ -6,11 +6,11 @@
 #
 layout: frontpage
 header:
-  background-color: #6780A8
+  background_color: #6780A8
   image_fullwidth: masthead.jpg
   title: Bright Water Bog
 footer:
-  image_fullwidth: masthead.jpg
+  image_fullwidth: bower9.jpg
 
 permalink: /index.html
 #
@@ -62,76 +62,64 @@ homepage: true
 
   <div class="row">
     <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}cabin5.jpg"><img class="lightbox" data-caption="Lower bedroom" src="{{ site.urlimg }}thumbnails/cabin5.jpg"></a>
+      <a href="{{ site.urlimg }}cabin5.jpg" data-pswp-width="2000" data-pswp-height="1500"><img class="lightbox" data-caption="Lower bedroom" src="{{ site.urlimg }}thumbnails/cabin5.jpg"></a>
       <h3 class="caption">Lower bedroom</h3>
     </div><!-- /.medium-4.columns -->
-
     <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}cabin6.jpg"><img class="lightbox" data-caption="Loft bedroom" src="{{ site.urlimg }}thumbnails/cabin6.jpg"></a>
+      <a href="{{ site.urlimg }}cabin6.jpg" data-pswp-width="2000" data-pswp-height="1500"><img class="lightbox" data-caption="Loft bedroom" src="{{ site.urlimg }}thumbnails/cabin6.jpg"></a>
       <h3 class="caption">Loft bedroom</h3>
     </div><!-- /.medium-4.columns -->
-
     <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}cabin7.jpg"><img class="lightbox" data-caption="Study bedroom" src="{{ site.urlimg }}thumbnails/cabin7.jpg"></a>
+      <a href="{{ site.urlimg }}cabin7.jpg" data-pswp-width="2000" data-pswp-height="1500"><img class="lightbox" data-caption="Study bedroom" src="{{ site.urlimg }}thumbnails/cabin7.jpg"></a>
       <h3 class="caption">Study bedroom</h3>
     </div><!-- /.medium-4.columns -->
-
   </div><!-- /.row -->
 
   <div class="row">
     <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}cabin2.jpg"><img class="lightbox" data-caption="Living room" src="{{ site.urlimg }}thumbnails/cabin2.jpg"></a>
+      <a href="{{ site.urlimg }}cabin2.jpg" data-pswp-width="1500" data-pswp-height="2000"><img class="lightbox" data-caption="Living room" src="{{ site.urlimg }}thumbnails/cabin2.jpg"></a>
       <h3 class="caption">Living room</h3>
     </div><!-- /.medium-4.columns -->
-
     <div class="medium-8 columns t30">
-      <a href="{{ site.urlimg }}cabin3.jpg"><img class="lightbox" data-caption="Patio" src="{{ site.urlimg }}thumbnails/cabin3.jpg"></a>
+      <a href="{{ site.urlimg }}cabin3.jpg" data-pswp-width="2000" data-pswp-height="1125"><img class="lightbox" data-caption="Patio" src="{{ site.urlimg }}thumbnails/cabin3.jpg"></a>
       <h3 class="caption">Patio</h3>
     </div><!-- /.medium-8.columns -->
-
   </div><!-- /.row -->
 
   <div class="row">
     <div class="medium-8 columns t30">
-      <a href="{{ site.urlimg }}cabin9.jpg"><img class="lightbox" data-caption="Dining room" src="{{ site.urlimg }}thumbnails/cabin9.jpg"></a>
+      <a href="{{ site.urlimg }}cabin9.jpg" data-pswp-width="2000" data-pswp-height="1500"><img class="lightbox" data-caption="Dining room" src="{{ site.urlimg }}thumbnails/cabin9.jpg"></a>
       <h3 class="caption">Dining room</h3>
     </div><!-- /.medium-4.columns -->
-
     <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}cabin4.jpg"><img class="lightbox" data-caption="Workshop" src="{{ site.urlimg }}thumbnails/cabin4.jpg"></a>
+      <a href="{{ site.urlimg }}cabin4.jpg" data-pswp-width="1500" data-pswp-height="2000"><img class="lightbox" data-caption="Workshop" src="{{ site.urlimg }}thumbnails/cabin4.jpg"></a>
       <h3 class="caption">Workshop</h3>
     </div><!-- /.medium-4.columns -->
-
   </div><!-- /.row -->
 
   <div class="row">
-
     <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}cabin1.jpg"><img class="lightbox" data-caption="Rumpus room" src="{{ site.urlimg }}thumbnails/cabin1.jpg"></a>
+      <a href="{{ site.urlimg }}cabin1.jpg" data-pswp-width="2000" data-pswp-height="1500"><img class="lightbox" data-caption="Rumpus room" src="{{ site.urlimg }}thumbnails/cabin1.jpg"></a>
       <h3 class="caption">Rumpus room</h3>
-      <a href="{{ site.urlimg }}cabin1.jpg"><img class="lightbox" data-caption="Rumpus room" src="{{ site.urlimg }}thumbnails/cabin1.jpg" class="t30"></a>
+      <a href="{{ site.urlimg }}cabin1.jpg" data-pswp-width="2000" data-pswp-height="1500"><img class="lightbox" data-caption="Rumpus room" src="{{ site.urlimg }}thumbnails/cabin1.jpg" class="t30"></a>
       <h3 class="caption">Rumpus room</h3>
     </div><!-- /.medium-4.columns -->
-
     <div class="medium-8 columns t30">
-      <a href="{{ site.urlimg }}cabin8.jpg"><img class="lightbox" class="t30" data-caption="Screened-in porch" src="{{ site.urlimg }}thumbnails/cabin8.jpg"></a>
+      <a href="{{ site.urlimg }}cabin8.jpg" data-pswp-width="2000" data-pswp-height="1500"><img class="lightbox" class="t30" data-caption="Screened-in porch" src="{{ site.urlimg }}thumbnails/cabin8.jpg"></a>
       <h3 class="caption">Screened-in porch</h3>
     </div><!-- /.medium-4.columns -->
-
   </div><!-- /.row -->
+
   <div class="row">
     <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}cabin10.jpg"><img class="lightbox" data-caption="Cabin 10" src="{{ site.urlimg }}thumbnails/cabin10.jpg"></a>
+      <a href="{{ site.urlimg }}cabin10.jpg" data-pswp-width="2000" data-pswp-height="1500"><img class="lightbox" data-caption="Cabin 10" src="{{ site.urlimg }}thumbnails/cabin10.jpg"></a>
     </div><!-- /.medium-4.columns -->
-
     <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}cabin11.jpg"><img class="lightbox" data-caption="Cabin 11" src="{{ site.urlimg }}thumbnails/cabin11.jpg"></a>
+      <a href="{{ site.urlimg }}cabin11.jpg" data-pswp-width="2000" data-pswp-height="1500"><img class="lightbox" data-caption="Cabin 11" src="{{ site.urlimg }}thumbnails/cabin11.jpg"></a>
     </div><!-- /.medium-4.columns -->
-
     <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}cabin12.jpg"><img class="lightbox" data-caption="Cabin 12" src="{{ site.urlimg }}thumbnails/cabin12.jpg"></a>
+      <a href="{{ site.urlimg }}cabin12.jpg" data-pswp-width="2000" data-pswp-height="1500"><img class="lightbox" data-caption="Cabin 12" src="{{ site.urlimg }}thumbnails/cabin12.jpg"></a>
     </div><!-- /.medium-4.columns -->
-
   </div><!-- /.row -->
 </article>
 
@@ -142,30 +130,116 @@ homepage: true
 
   <div class="row">
     <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}art3.jpg"><img class="lightbox" data-caption="Art 3" src="{{ site.urlimg }}thumbnails/art3.jpg"></a>
+      <a href="{{ site.urlimg }}art3.jpg" data-pswp-width="2000" data-pswp-height="1500"><img class="lightbox" data-caption="Art 3" src="{{ site.urlimg }}thumbnails/art3.jpg"></a>
     </div><!-- /.medium-4.columns -->
-
     <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}art1.jpg"><img class="lightbox" data-caption="Art 1" src="{{ site.urlimg }}thumbnails/art1.jpg"></a>
+      <a href="{{ site.urlimg }}art1.jpg" data-pswp-width="2000" data-pswp-height="1500"><img class="lightbox" data-caption="Art 1" src="{{ site.urlimg }}thumbnails/art1.jpg"></a>
     </div><!-- /.medium-4.columns -->
-
     <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}art2.jpg"><img class="lightbox" data-caption="Art 2" src="{{ site.urlimg }}thumbnails/art2.jpg"></a>
+      <a href="{{ site.urlimg }}art2.jpg" data-pswp-width="1500" data-pswp-height="2000"><img class="lightbox" data-caption="Art 2" src="{{ site.urlimg }}thumbnails/art2.jpg"></a>
     </div><!-- /.medium-4.columns -->
-
   </div><!-- /.row -->
 
   <div class="row">
-    <div class="medium-8 columns t30">
-      <a href="{{ site.urlimg }}art4.jpg"><img class="lightbox" data-caption="Art 4" src="{{ site.urlimg }}thumbnails/art4.jpg"></a>
+    <div class="medium-12 columns t30">
+      <a href="{{ site.urlimg }}art4.jpg" data-pswp-width="2000" data-pswp-height="1500"><img class="lightbox" data-caption="Art 4" src="{{ site.urlimg }}art4.jpg"></a>
     </div><!-- /.medium-8.columns -->
-
-    <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}art5.jpg"><img class="lightbox" data-caption="Art 5" src="{{ site.urlimg }}thumbnails/art5.jpg"></a>
-      <a href="{{ site.urlimg }}art6.jpg"><img class="lightbox" class="t30" data-caption="Art 6" src="{{ site.urlimg }}thumbnails/art6.jpg"></a>
+  </div>
+  
+  <div class="row">
+    <div class="medium-6 columns t30">
+      <a href="{{ site.urlimg }}art5.jpg" data-pswp-width="1500" data-pswp-height="2000"><img class="lightbox" data-caption="Art 5" src="{{ site.urlimg }}thumbnails/art5.jpg"></a>
+    </div>
+    <div class="medium-6 columns t30">
+      <a href="{{ site.urlimg }}art6.jpg" data-pswp-width="1500" data-pswp-height="2000"><img class="lightbox" data-caption="Art 6" src="{{ site.urlimg }}thumbnails/art6.jpg"></a>
     </div><!-- /.medium-4.columns -->
-
   </div><!-- /.row -->
+
+  <div class="row">
+    <div class="medium-4 columns t30">
+      <a href="{{ site.urlimg }}art7.jpg" data-pswp-width="1500" data-pswp-height="2000"><img class="lightbox" data-caption="Art 3" src="{{ site.urlimg }}thumbnails/art7.jpg"></a>
+    </div><!-- /.medium-4.columns -->
+    <div class="medium-4 columns t30">
+      <a href="{{ site.urlimg }}art8.jpg" data-pswp-width="1500" data-pswp-height="2000"><img class="lightbox" data-caption="Art 1" src="{{ site.urlimg }}thumbnails/art8.jpg"></a>
+    </div><!-- /.medium-4.columns -->
+    <div class="medium-4 columns t30">
+      <a href="{{ site.urlimg }}art9.jpg" data-pswp-width="1500" data-pswp-height="2000"><img class="lightbox" data-caption="Art 2" src="{{ site.urlimg }}thumbnails/art9.jpg"></a>
+    </div><!-- /.medium-4.columns -->
+  </div><!-- /.row -->
+
+  <div class="row">
+    <div class="medium-4 columns t30">
+      <a href="{{ site.urlimg }}art10.jpg" data-pswp-width="1500" data-pswp-height="2000"><img class="lightbox" data-caption="Art 3" src="{{ site.urlimg }}thumbnails/art10.jpg"></a>
+    </div><!-- /.medium-4.columns -->
+    <div class="medium-4 columns t30">
+      <a href="{{ site.urlimg }}art11.jpg" data-pswp-width="1500" data-pswp-height="2000"><img class="lightbox" data-caption="Art 1" src="{{ site.urlimg }}thumbnails/art11.jpg"></a>
+    </div><!-- /.medium-4.columns -->
+    <div class="medium-4 columns t30">
+      <a href="{{ site.urlimg }}art12.jpg" data-pswp-width="1500" data-pswp-height="2000"><img class="lightbox" data-caption="Art 2" src="{{ site.urlimg }}thumbnails/art12.jpg"></a>
+    </div><!-- /.medium-4.columns -->
+  </div><!-- /.row -->
+
+  <div class="row">
+    <div class="medium-4 columns t30">
+      <a href="{{ site.urlimg }}art13.jpg" data-pswp-width="1500" data-pswp-height="2000"><img class="lightbox" data-caption="Art 3" src="{{ site.urlimg }}thumbnails/art13.jpg"></a>
+    </div><!-- /.medium-4.columns -->
+    <div class="medium-4 columns t30">
+      <a href="{{ site.urlimg }}art14.jpg" data-pswp-width="1500" data-pswp-height="2000"><img class="lightbox" data-caption="Art 1" src="{{ site.urlimg }}thumbnails/art14.jpg"></a>
+    </div><!-- /.medium-4.columns -->
+    <div class="medium-4 columns t30">
+      <a href="{{ site.urlimg }}art15.jpg" data-pswp-width="1500" data-pswp-height="2000"><img class="lightbox" data-caption="Art 2" src="{{ site.urlimg }}thumbnails/art15.jpg"></a>
+    </div><!-- /.medium-4.columns -->
+  </div><!-- /.row -->
+  
+  <div class="row">
+    <div class="medium-4 columns t30">
+      <a href="{{ site.urlimg }}art16.jpg" data-pswp-width="1500" data-pswp-height="2000"><img class="lightbox" data-caption="Art 3" src="{{ site.urlimg }}thumbnails/art16.jpg"></a>
+    </div><!-- /.medium-4.columns -->
+    <div class="medium-4 columns t30">
+      <a href="{{ site.urlimg }}art17.jpg" data-pswp-width="1500" data-pswp-height="2000"><img class="lightbox" data-caption="Art 1" src="{{ site.urlimg }}thumbnails/art17.jpg"></a>
+    </div><!-- /.medium-4.columns -->
+    <div class="medium-4 columns t30">
+      <a href="{{ site.urlimg }}art18.jpg" data-pswp-width="1500" data-pswp-height="2000"><img class="lightbox" data-caption="Art 2" src="{{ site.urlimg }}thumbnails/art18.jpg"></a>
+    </div><!-- /.medium-4.columns -->
+  </div><!-- /.row -->
+
+  <div class="row">
+    <div class="medium-4 columns t30">
+      <a href="{{ site.urlimg }}art19.jpg" data-pswp-width="1500" data-pswp-height="2000"><img class="lightbox" data-caption="Art 3" src="{{ site.urlimg }}thumbnails/art19.jpg"></a>
+    </div><!-- /.medium-4.columns -->
+    <div class="medium-4 columns t30">
+      <a href="{{ site.urlimg }}art20.jpg" data-pswp-width="1500" data-pswp-height="2000"><img class="lightbox" data-caption="Art 1" src="{{ site.urlimg }}thumbnails/art20.jpg"></a>
+    </div><!-- /.medium-4.columns -->
+    <div class="medium-4 columns t30">
+      <a href="{{ site.urlimg }}art21.jpg" data-pswp-width="1500" data-pswp-height="2000"><img class="lightbox" data-caption="Art 2" src="{{ site.urlimg }}thumbnails/art21.jpg"></a>
+    </div><!-- /.medium-4.columns -->
+  </div><!-- /.row -->
+  
+  <div class="row">
+    <div class="medium-4 columns t30">
+      <a href="{{ site.urlimg }}art22.jpg" data-pswp-width="1500" data-pswp-height="2000"><img class="lightbox" data-caption="Art 3" src="{{ site.urlimg }}thumbnails/art22.jpg"></a>
+    </div><!-- /.medium-4.columns -->
+    <div class="medium-4 columns t30">
+      <a href="{{ site.urlimg }}art23.jpg" data-pswp-width="1500" data-pswp-height="2000"><img class="lightbox" data-caption="Art 1" src="{{ site.urlimg }}thumbnails/art23.jpg"></a>
+    </div><!-- /.medium-4.columns -->
+    <div class="medium-4 columns t30">
+      <a href="{{ site.urlimg }}art24.jpg" data-pswp-width="1500" data-pswp-height="2000"><img class="lightbox" data-caption="Art 2" src="{{ site.urlimg }}thumbnails/art24.jpg"></a>
+    </div><!-- /.medium-4.columns -->
+  </div><!-- /.row -->
+  
+  <div class="row">
+    <div class="medium-4 columns t30">
+      <a href="{{ site.urlimg }}art25.jpg" data-pswp-width="1500" data-pswp-height="2000"><img class="lightbox" data-caption="Art 3" src="{{ site.urlimg }}thumbnails/art25.jpg"></a>
+    </div><!-- /.medium-4.columns -->
+    <div class="medium-4 columns t30">
+      <a href="{{ site.urlimg }}art26.jpg" data-pswp-width="1500" data-pswp-height="2000"><img class="lightbox" data-caption="Art 1" src="{{ site.urlimg }}thumbnails/art26.jpg"></a>
+    </div><!-- /.medium-4.columns -->
+    <div class="medium-4 columns t30">
+      <a href="{{ site.urlimg }}art27.jpg" data-pswp-width="1500" data-pswp-height="2000"><img class="lightbox" data-caption="Art 2" src="{{ site.urlimg }}thumbnails/art27.jpg"></a>
+    </div><!-- /.medium-4.columns -->
+  </div><!-- /.row -->
+  
+  
 </article>
 
 <article>
@@ -175,31 +249,35 @@ homepage: true
 
   <div class="row">
     <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}bower7.jpg"><img class="lightbox" data-caption="Bower 7" src="{{ site.urlimg }}thumbnails/bower7.jpg"></a>
+      <a href="{{ site.urlimg }}bower7.jpg" data-pswp-width="1500" data-pswp-height="2000"><img class="lightbox" data-caption="Bower 7" src="{{ site.urlimg }}thumbnails/bower7.jpg"></a>
     </div><!-- /.medium-4.columns -->
-
     <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}bower2.jpg"><img class="lightbox" data-caption="Bower 2" src="{{ site.urlimg }}thumbnails/bower2.jpg"></a>
+      <a href="{{ site.urlimg }}bower2.jpg" data-pswp-width="1500" data-pswp-height="2000"><img class="lightbox" data-caption="Bower 2" src="{{ site.urlimg }}thumbnails/bower2.jpg"></a>
     </div><!-- /.medium-4.columns -->
-
     <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}bower3.jpg"><img class="lightbox" data-caption="Bower 3" src="{{ site.urlimg }}thumbnails/bower3.jpg"></a>
+      <a href="{{ site.urlimg }}bower3.jpg" data-pswp-width="1500" data-pswp-height="2000"><img class="lightbox" data-caption="Bower 3" src="{{ site.urlimg }}thumbnails/bower3.jpg"></a>
     </div><!-- /.medium-4.columns -->
-
   </div><!-- /.row -->
 
   <div class="row">
     <div class="medium-8 columns t30">
-      <a href="{{ site.urlimg }}bower4.jpg"><img class="lightbox" data-caption="Bower 4" src="{{ site.urlimg }}thumbnails/bower4.jpg"></a>
+      <a href="{{ site.urlimg }}bower4.jpg" data-pswp-width="2000" data-pswp-height="1500"><img class="lightbox" data-caption="Bower 4" src="{{ site.urlimg }}thumbnails/bower4.jpg"></a>
     </div><!-- /.medium-8.columns -->
-
     <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}bower5.jpg"><img class="lightbox" data-caption="Bower 5" src="{{ site.urlimg }}thumbnails/bower5.jpg"></a>
-      <a href="{{ site.urlimg }}bower6.jpg"><img class="lightbox" class="t30" data-caption="Bower 6" src="{{ site.urlimg }}thumbnails/bower6.jpg"></a>
-      <a href="{{ site.urlimg }}bower1.jpg"><img class="lightbox" class="t30" data-caption="Bower 1" src="{{ site.urlimg }}thumbnails/bower1.jpg"></a>
+      <a href="{{ site.urlimg }}bower5.jpg" data-pswp-width="2000" data-pswp-height="1500"><img class="lightbox" data-caption="Bower 5" src="{{ site.urlimg }}thumbnails/bower5.jpg"></a>
+      <a href="{{ site.urlimg }}bower6.jpg" data-pswp-width="2000" data-pswp-height="1500"><img class="lightbox" class="t30" data-caption="Bower 6" src="{{ site.urlimg }}thumbnails/bower6.jpg"></a>
     </div><!-- /.medium-4.columns -->
-
   </div><!-- /.row -->
+
+  <div class="row">
+    <div class="medium-6 columns t30">
+      <a href="{{ site.urlimg }}bower1.jpg" data-pswp-width="2000" data-pswp-height="1125"><img class="lightbox" data-caption="Bower 5" src="{{ site.urlimg }}thumbnails/bower1.jpg"></a>
+    </div><!-- /.medium-4.columns -->
+    <div class="medium-6 columns t30">
+      <a href="{{ site.urlimg }}bower8.jpg" data-pswp-width="2000" data-pswp-height="1125"><img class="lightbox" data-caption="Bower 4" src="{{ site.urlimg }}thumbnails/bower8.jpg"></a>
+    </div><!-- /.medium-8.columns -->
+  </div><!-- /.row -->
+
 </article>
 
 <div class="row t60 b60">
