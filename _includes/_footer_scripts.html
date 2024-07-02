@@ -15,6 +15,12 @@ $('audio,video').mediaelementplayer();
 </script>
 {% endif %}
 
+{% if page.footer.image_fullwidth %}
+<script>
+    $("#footer-masthead").backstretch("{{ site.urlimg }}{{ page.footer.image_fullwidth }}", {fade: 700});
+</script>
+{% endif %}
+
 
 
 

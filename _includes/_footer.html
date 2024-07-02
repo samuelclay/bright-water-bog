@@ -1,75 +1,122 @@
-    <div id="up-to-top" class="row">
-      <div class="small-12 columns" style="text-align: right;">
-        <a class="iconfont" href="#top-of-page">&#xf108;</a>
+<div id="up-to-top" class="row">
+  <div class="small-12 columns" style="text-align: right;">
+    <a class="iconfont" href="#top-of-page">&#xf108;</a>
+  </div><!-- /.small-12.columns -->
+</div><!-- /.row -->
+
+<footer>
+  {% if page.footer == NULL and page.footer.image_fullwidth == NULL and page.footer.pattern == NULL and
+  page.footer.background-color == NULL and page.footer.title == NULL %}
+
+  <div id="masthead-no-image-footer">
+    <div class="row">
+      <div class="small-12 columns">
+        <a id="logo" href="{{ '/' | absolute_url }}" title="{{ site.title }} – {{ site.slogan }}">
+          <img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.logo }}"
+            alt="{{ site.title }} – {{ site.slogan }}">
+        </a>
       </div><!-- /.small-12.columns -->
     </div><!-- /.row -->
+  </div><!-- /#masthead -->
+
+  {% if page.breadcrumb == true %}
+  {% include _breadcrumb.html %}
+  {% endif %}
 
 
-    <footer id="footer-content" class="bg-grau">
-      <div id="footer">
-        <div class="row">
-          <div class="medium-6 large-5 columns">
-            <h5 class="shadow-black">{{ site.data.language.info_website }}</h5>
-
-            <p class="shadow-black">
-              {{ site.description }}
-              <a href="{{ site.url }}{{ site.baseurl }}/info/">{{ site.data.language.more }}</a>
-            </p>
-          </div><!-- /.large-6.columns -->
 
 
-          <div class="small-6 medium-3 large-3 large-offset-1 columns">
-            {% for service_item in site.data.services %}
-              {% if forloop.first == true %}
-                <h5 class="shadow-black">{{ service_item.menu_name }}</h5>
-              {% endif %}
-            {% endfor %}
 
-              <ul class="no-bullet shadow-black">
-              {% for service_item in site.data.services %}
-                {% if service_item.url contains 'http' %}{% assign domain = '' %}{% else %}{% capture domain %}{{ site.url }}{{ site.baseurl }}{% endcapture %}{% endif %}
-                  <li {% if service_item.class %}class="{{ service_item.class }}" {% endif %}>
-                    <a href="{{ domain }}{{ service_item.url }}" {% if service_item.url contains 'http' %}target="_blank" {% endif %} title="{{ service_item.title }}">{{ service_item.name }}</a>
-                  </li>
-              {% endfor %}
-              </ul>
-          </div><!-- /.large-4.columns -->
+  {% elsif page.footer.title %}
 
+  <div id="masthead-with-text"
+    style="{% if page.footer.background-color %}background: {{ page.footer.background-color }};{% endif %} {% if page.footer.image_fullwidth %}{% elsif page.footer.pattern %}background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url('{{ site.urlimg }}/{{ page.footer.pattern }}'){% endif %}">
+    <div class="row">
+      <div class="small-12 columns masthead-container">
+        <div class="masthead-title">{{ page.footer.title }}</div>
+      </div><!-- /.small-12.columns -->
+    </div><!-- /.row -->
+  </div><!-- /#masthead -->
 
-          <div class="small-6 medium-3 large-3 columns">
-            {% for network_item in site.data.network %}
-              {% if forloop.first == true %}
-                <h5 class="shadow-black">{{ network_item.menu_name }}</h5>
-              {% endif %}
-            {% endfor %}
+  {% if page.breadcrumb == true %}
+  {% include _breadcrumb.html %}
+  {% endif %}
 
-            <ul class="no-bullet shadow-black">
-            {% for network_item in site.data.network %}
-              {% if network_item.url contains 'http' %}{% assign domain = '' %}{% else %}{% capture domain %}{{ site.url }}{{ site.baseurl }}{% endcapture %}{% endif %}
-                <li {% if network_item.class %}class="{{ network_item.class }}" {% endif %}>
-                  <a href="{{ domain }}{{ network_item.url }}" {% if network_item.url contains 'http' %}target="_blank" {% endif %} title="{{ network_item.title }}">{{ network_item.name }}</a>
-                </li>
-            {% endfor %}
-            </ul>
-          </div><!-- /.large-3.columns -->
-        </div><!-- /.row -->
-
-      </div><!-- /#footer -->
+  {% if page.footer.caption_url && page.footer.caption %}
+  <div class="masthead-caption">
+    <a href="{{ page.footer.caption_url }}">{{ page.footer.caption }}</a>
+  </div>
+  {% elsif page.footer.caption %}
+  <div class="masthead-caption">
+    {{ page.footer.caption }}
+  </div>
+  {% endif %}
 
 
-      <div id="subfooter">
-        <nav class="row">
-          <section id="subfooter-left" class="small-12 medium-6 columns credits">
-            {{ site.credits }}
-          </section>
 
-          <section id="subfooter-right" class="small-12 medium-6 columns">
-            <ul class="inline-list social-icons">
-            {% for social_item in site.data.socialmedia %}
-              <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li>
-            {% endfor %}
-            </ul>
-          </section>
-        </nav>
-      </div><!-- /#subfooter -->
-    </footer>
+
+
+  {% elsif page.footer.image_fullwidth %}
+
+  <div id="masthead">
+  </div><!-- /#masthead -->
+
+  {% if page.breadcrumb == true %}
+  {% include _breadcrumb.html %}
+  {% endif %}
+
+  {% if page.footer.caption_url && page.footer.caption %}
+  <div class="masthead-caption">
+    <a href="{{ page.footer.caption_url }}">{{ page.footer.caption }}</a>
+  </div>
+  {% elsif page.footer.caption %}
+  <div class="masthead-caption">
+    {{ page.footer.caption }}
+  </div>
+  {% endif %}
+
+
+
+
+
+  {% elsif page.footer.pattern %}
+
+  <div id="masthead-with-pattern" style="background: url('{{ site.urlimg }}/{{ page.footer.pattern }}')">
+    <div class="row">
+      <figure class="small-12 columns">
+        <img src="{{ site.urlimg }}/{{ page.footer.image }}" alt="{{ site.title }}">
+      </figure><!-- /.small-12.columns -->
+    </div><!-- /.row -->
+  </div><!-- /#masthead -->
+
+  {% if page.breadcrumb == true %}
+  {% include _breadcrumb.html %}
+  {% endif %}
+
+  {% if page.footer.caption_url && page.footer.caption %}
+  <div class="masthead-caption">
+    <a href="{{ page.footer.caption_url }}">{{ page.footer.caption }}</a>
+  </div>
+  {% elsif page.footer.caption %}
+  <div class="masthead-caption">
+    {{ page.footer.caption }}
+  </div>
+  {% endif %}
+
+
+
+
+
+  {% elsif page.footer.background-color %}
+
+  <div id="masthead-with-background-color" style="background: {{ page.footer.background-color }};">
+    <div class="row">
+      <figure class="small-12 columns">
+        <img src="{{ site.urlimg }}/{{ page.footer.image }}" alt="{{ site.title }}">
+      </figure><!-- /.small-12.columns -->
+    </div><!-- /.row -->
+  </div><!-- /#masthead -->
+
+  {% endif %}
+
+</footer>

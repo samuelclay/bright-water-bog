@@ -41,9 +41,6 @@ improve_content: https://github.com/samuelclay/brightwaterbog/edit/main
 urlimg: 'https://brightwaterbog.com/images/'
 
 
-# Logo size is 600x80 pixels
-logo: "logo.png"
-
 # Plugins
 plugins:
     - jekyll-asciidoc
