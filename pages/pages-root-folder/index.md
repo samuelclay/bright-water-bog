@@ -200,19 +200,22 @@ homepage: true
       <a href="{{ site.urlimg }}art17.jpg" data-pswp-width="1500" data-pswp-height="2000"><img src="{{ site.urlimg }}thumbnails/art17.jpg"></a>
     </div><!-- /.medium-4.columns -->
     <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}art18.jpg" data-pswp-width="1500" data-pswp-height="2000"><img src="{{ site.urlimg }}thumbnails/art18.jpg"></a>
+      <a href="{{ site.urlimg }}art25.jpg" data-pswp-width="1500" data-pswp-height="2000"><img src="{{ site.urlimg }}thumbnails/art25.jpg"></a>
     </div><!-- /.medium-4.columns -->
   </div><!-- /.row -->
 
   <div class="row">
-    <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}art19.jpg" data-pswp-width="1500" data-pswp-height="2000"><img src="{{ site.urlimg }}thumbnails/art19.jpg"></a>
-    </div><!-- /.medium-4.columns -->
-    <div class="medium-4 columns t30">
+    <div class="medium-3 columns t30">
       <a href="{{ site.urlimg }}art20.jpg" data-pswp-width="1500" data-pswp-height="2000"><img src="{{ site.urlimg }}thumbnails/art20.jpg"></a>
     </div><!-- /.medium-4.columns -->
-    <div class="medium-4 columns t30">
+    <div class="medium-3 columns t30">
       <a href="{{ site.urlimg }}art21.jpg" data-pswp-width="1500" data-pswp-height="2000"><img src="{{ site.urlimg }}thumbnails/art21.jpg"></a>
+    </div><!-- /.medium-4.columns -->
+    <div class="medium-3 columns t30">
+      <a href="{{ site.urlimg }}art19.jpg" data-pswp-width="1500" data-pswp-height="2000"><img src="{{ site.urlimg }}thumbnails/art19.jpg"></a>
+    </div><!-- /.medium-4.columns -->
+    <div class="medium-3 columns t30">
+      <a href="{{ site.urlimg }}art18.jpg" data-pswp-width="1500" data-pswp-height="2000"><img src="{{ site.urlimg }}thumbnails/art18.jpg"></a>
     </div><!-- /.medium-4.columns -->
   </div><!-- /.row -->
   
@@ -229,13 +232,10 @@ homepage: true
   </div><!-- /.row -->
   
   <div class="row">
-    <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}art25.jpg" data-pswp-width="1500" data-pswp-height="2000"><img src="{{ site.urlimg }}thumbnails/art25.jpg"></a>
-    </div><!-- /.medium-4.columns -->
-    <div class="medium-4 columns t30">
+    <div class="medium-6 columns t30">
       <a href="{{ site.urlimg }}art26.jpg" data-pswp-width="1500" data-pswp-height="2000"><img src="{{ site.urlimg }}thumbnails/art26.jpg"></a>
     </div><!-- /.medium-4.columns -->
-    <div class="medium-4 columns t30">
+    <div class="medium-6 columns t30">
       <a href="{{ site.urlimg }}art27.jpg" data-pswp-width="1500" data-pswp-height="2000"><img src="{{ site.urlimg }}thumbnails/art27.jpg"></a>
     </div><!-- /.medium-4.columns -->
   </div><!-- /.row -->
