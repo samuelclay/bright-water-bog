@@ -44,7 +44,7 @@ homepage: true
     <div class="medium-4 columns">
       <a href="{{ site.urlimg }}cabin12.jpg" data-pswp-width="2000" data-pswp-height="1500"><img class="lightbox" class="" src="{{ site.urlimg }}cabin12.jpg" alt=""></a>
       <a href="{{ site.urlimg }}cabin8.jpg" data-pswp-width="2000" data-pswp-height="1500"><img class="lightbox" class="t30" src="{{ site.urlimg }}cabin8.jpg" alt=""></a>
-      <a href="{{ site.urlimg }}cabin3.jpg" data-pswp-width="2000" data-pswp-height="1125"><img class="lightbox" class="t30" src="{{ site.urlimg }}cabin3.jpg" alt=""></a>
+      <a href="{{ site.urlimg }}cabin3.jpg" data-pswp-width="2000" data-pswp-height="1500"><img class="lightbox" class="t30" src="{{ site.urlimg }}cabin3.jpg" alt=""></a>
     </div><!-- /.medium-4.columns -->
   </div>
 
@@ -77,36 +77,44 @@ homepage: true
   </div><!-- /.row -->
 
   <div class="row">
-    <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}cabin2.jpg" data-pswp-width="1500" data-pswp-height="2000"><img src="{{ site.urlimg }}thumbnails/cabin2.jpg"></a>
-      <h3 class="caption">Living room</h3>
-    </div><!-- /.medium-4.columns -->
-    <div class="medium-8 columns t30">
-      <a href="{{ site.urlimg }}cabin3.jpg" data-pswp-width="2000" data-pswp-height="1125"><img src="{{ site.urlimg }}thumbnails/cabin3.jpg"></a>
+    <div class="medium-12 columns t30">
+      <a href="{{ site.urlimg }}cabin3.jpg" data-pswp-width="2000" data-pswp-height="1500"><img src="{{ site.urlimg }}thumbnails/cabin3.jpg"></a>
       <h3 class="caption">Patio</h3>
     </div><!-- /.medium-8.columns -->
   </div><!-- /.row -->
 
   <div class="row">
-    <div class="medium-8 columns t30">
-      <a href="{{ site.urlimg }}cabin9.jpg" data-pswp-width="2000" data-pswp-height="1500"><img src="{{ site.urlimg }}thumbnails/cabin9.jpg"></a>
-      <h3 class="caption">Dining room</h3>
+    <div class="medium-6 columns t30">
+      <a href="{{ site.urlimg }}cabin2.jpg" data-pswp-width="1500" data-pswp-height="2000"><img src="{{ site.urlimg }}thumbnails/cabin2.jpg"></a>
+      <h3 class="caption">Living room</h3>
     </div><!-- /.medium-4.columns -->
-    <div class="medium-4 columns t30">
+    <div class="medium-6 columns t30">
       <a href="{{ site.urlimg }}cabin4.jpg" data-pswp-width="1500" data-pswp-height="2000"><img src="{{ site.urlimg }}thumbnails/cabin4.jpg"></a>
       <h3 class="caption">Workshop</h3>
     </div><!-- /.medium-4.columns -->
   </div><!-- /.row -->
 
   <div class="row">
-    <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}cabin1.jpg" data-pswp-width="2000" data-pswp-height="1500"><img src="{{ site.urlimg }}thumbnails/cabin1.jpg"></a>
-      <h3 class="caption">Rumpus room</h3>
-      <a href="{{ site.urlimg }}cabin1.jpg" data-pswp-width="2000" data-pswp-height="1500"><img src="{{ site.urlimg }}thumbnails/cabin1.jpg" class="t30"></a>
+    <div class="medium-12 columns t30">
+      <a href="{{ site.urlimg }}cabin9.jpg" data-pswp-width="2000" data-pswp-height="1500"><img src="{{ site.urlimg }}thumbnails/cabin9.jpg"></a>
+      <h3 class="caption">Dining room</h3>
+    </div><!-- /.medium-4.columns -->
+  </div><!-- /.row -->
+
+  <div class="row">
+    <div class="medium-6 columns t30">
+      <a href="{{ site.urlimg }}cabin1.jpg" data-pswp-width="2000" data-pswp-height="1334"><img src="{{ site.urlimg }}thumbnails/cabin1.jpg"></a>
       <h3 class="caption">Rumpus room</h3>
     </div><!-- /.medium-4.columns -->
-    <div class="medium-8 columns t30">
-      <a href="{{ site.urlimg }}cabin8.jpg" data-pswp-width="2000" data-pswp-height="1500"><img class="lightbox" class="t30" data-caption="Screened-in porch" src="{{ site.urlimg }}thumbnails/cabin8.jpg"></a>
+    <div class="medium-6 columns t30">
+      <a href="{{ site.urlimg }}cabin13.jpg" data-pswp-width="1024" data-pswp-height="683"><img src="{{ site.urlimg }}thumbnails/cabin13.jpg"></a>
+      <h3 class="caption">Kitchen</h3>
+    </div><!-- /.medium-4.columns -->
+  </div><!-- /.row -->
+
+  <div class="row">
+    <div class="medium-12 columns t30">
+      <a href="{{ site.urlimg }}cabin8.jpg" data-pswp-width="2000" data-pswp-height="1500"><img class="lightbox" data-caption="Screened-in porch" src="{{ site.urlimg }}thumbnails/cabin8.jpg"></a>
       <h3 class="caption">Screened-in porch</h3>
     </div><!-- /.medium-4.columns -->
   </div><!-- /.row -->
@@ -137,7 +145,7 @@ homepage: true
       <a href="{{ site.urlimg }}art1.jpg" data-pswp-width="2000" data-pswp-height="1500"><img src="{{ site.urlimg }}thumbnails/art1.jpg"></a>
     </div><!-- /.medium-4.columns -->
     <div class="medium-4 columns t30">
-      <a href="{{ site.urlimg }}art2.jpg" data-pswp-width="1500" data-pswp-height="2000"><img src="{{ site.urlimg }}thumbnails/art2.jpg"></a>
+      <a href="{{ site.urlimg }}art2.jpg" data-pswp-width="2000" data-pswp-height="1500"><img src="{{ site.urlimg }}thumbnails/art2.jpg"></a>
     </div><!-- /.medium-4.columns -->
   </div><!-- /.row -->
 
