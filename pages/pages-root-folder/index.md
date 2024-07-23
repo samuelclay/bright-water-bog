@@ -37,7 +37,7 @@ homepage: true
           and machine tools</li>
         <li>$200/month discount for vegetarians</li>
       </ul>
-      <p>Searching for your own private Oasis...? This truly unique 3-bedroom, 2.5 bath Post & Beam Contemporary home is perfectly sited at the end of a long meandering drive bordered by Mountain Laurel, picturesque views, and one-of-a-kind artwork on 8.4 private acres overlooking lovely Ames Pond.</p>
+      <p>Searching for your own private Oasis...? This truly unique 3-bedroom, 2.5 bath Post & Beam Contemporary home is perfectly sited at the end of a long meandering drive bordered by Mountain Laurel, picturesque views, and one-of-a-kind artwork on 8.4 private acres overlooking lovely Ames Pond. The cabin is surrounded by the 150-acre Bright Water Bog Nature Retreat, which is owned and managed by <a href="https://www.kestreltrust.org/connect/trailmaps/bright-water-bog-map-thumb/" class="link">Kestrel Land Trust</a>.</p>
       <p>The home offers stunning water, marsh, meadow, and mountain views from nearly every window, and natural beauty at your doorstep.  Surrounded by more than 150 acres of scenic, protected land with miles of hiking and X-country ski trails the activity options are many.  The home's soaring ceiling, sun-filled rooms, uncommon details, and generous studio/workshop add to this property's endless possibilities. </p>
       <p>Whether you are searching for a place to relax and unwind, to invite and entertain when you wish, to produce your masterpiece, or a place to actively connect with all that nature has to offer, this one checks all the boxes.  You've never seen a home more captivating than this.  You won't be disappointed!</p>
     </div><!-- /.medium-8.columns -->
@@ -256,6 +256,7 @@ homepage: true
       <h1>Julian's Bower</h1>
     </span></header>
 
+  <p class="row">Many of these photos include land on Kestrel Land Trust's Bright Water Bog Nature Retreat.</p>
   <div class="row">
     <div class="medium-4 columns t30">
       <a href="{{ site.urlimg }}bower7.jpg" data-pswp-width="1500" data-pswp-height="2000"><img src="{{ site.urlimg }}thumbnails/bower7.jpg"></a>

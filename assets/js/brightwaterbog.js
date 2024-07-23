@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
         gallery: 'article',
 
         // Elements within gallery (slides)
-        children: 'a',
+        children: 'a:not(.link)',
         showHideAnimationType: 'zoom',
         preloaderDelay: 100,
         pswpModule: PhotoSwipe,
