@@ -29,7 +29,7 @@ homepage: true
     <div class="medium-8 columns">
       <p class="teaser">Spectacular private house with 23 acre pond and stained glass sculptures</p>
       <ul>
-        <li>Sublet for <b>$3,000/month</b></li>
+        <li>Sublet for <b>$2,700/month</b></li>
         <li>Available late August — early June (flexible)</li>
         <li>3 Bedrooms / 2.5 Bath, 1,750 square feet</li>
         <li>Fully furnished sublet</li>
